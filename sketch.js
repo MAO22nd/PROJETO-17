@@ -191,12 +191,12 @@ function redCyclists(){
 }
 
 //function reset{
-  gameState = END;
+  //gameState = END;
  // gameOver.visible = false;
  // mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
   
  // pinkCG.destroyEach();
- yellowCG.destroyEach();
+// yellowCG.destroyEach();
 //  redCG.destroyEach();
   
   distance = 0;
@@ -204,23 +204,23 @@ function redCyclists(){
 
 //function reset{
 //  gameState = PLAY;
- gameOver.visible = true;
+// gameOver.visible = true;
 //  mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
   
 //  pinkCG.destroy();
- yellowCG.destroy();
+ //yellowCG.destroy();
 //  redCG.destroy();
   
   distance = 0;
  }
 
-//function reset(){
-//  gameState = PLAY;
+function reset(){
+  gameState = PLAY;
   gameOver.visible = false;
-//  mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
+ mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
   
-//  pinkCG.destroyEach();
-//  yellowCG.destroyEach();
+  pinkCG.destroyEach();
+  yellowCG.destroyEach();
   redCG.destroyEach();
   
 //  distance = 0;
@@ -228,10 +228,10 @@ function redCyclists(){
 
 //function reset(){
 //  gameState = END;
-  gameOver.visible = true;
+//  gameOver.visible = true;
 //  mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
   
-  pinkCG.destroyEach();
+ // pinkCG.destroyEach();
 //  yellowCG.destroyEach();
 //  redCG.destroyEach();
   
